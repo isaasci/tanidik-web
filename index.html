@@ -1,15 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanıdık - Gizlilik Politikası</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tanıdık – Gizlilik Politikası</title>
+<style>
+  :root {
+    --primary: #075e54;
+    --secondary: #25d366;
+    --bg: #ffffff;
+    --text: #111111;
+    --soft: #f4f6f5;
+  }
+  body {
+    margin: 0;
+    font-family: -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background: var(--soft);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--primary);
+    color: #fff;
+    padding: 40px 20px 32px;
+    text-align: center;
+  }
+  header h1 { margin: 0 0 8px; font-size: 28px; }
+  header p { margin: 0; opacity: 0.9; }
+  main {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 24px 16px 60px;
+  }
+  section {
+    background: var(--bg);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 10px rgba(7, 94, 84, 0.08);
+  }
+  h2 {
+    color: var(--primary);
+    margin-top: 0;
+    font-size: 20px;
+    border-bottom: 2px solid var(--secondary);
+    padding-bottom: 6px;
+  }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  strong { color: var(--primary); }
+  footer {
+    text-align: center;
+    color: #666;
+    padding: 20px;
+    font-size: 14px;
+  }
+</style>
 </head>
 <body>
-    <h1>Tanıdık Gizlilik Politikası</h1>
+<header>
+  <h1>Tanıdık</h1>
+  <p>Gizlilik Politikası • Son güncelleme: 2026-10-08</p>
+</header>
+<main>
+  <section>
+    <h2>1. Toplanan Veriler</h2>
+    <p>Uygulama, cihazınızda aşağıdaki bilgileri saklamanıza izin verir:</p>
+    <ul>
+      <li>Ad, telefon numarası</li>
+      <li>“Nereden tanıyorum?” ve not alanları</li>
+      <li>Etiketler</li>
+      <li>Fotoğraflar</li>
+      <li>Doğum günü / özel tarihler ve hatırlatıcılar</li>
+    </ul>
+    <p>Bu veriler yalnızca cihazınızda saklanır. Hiçbir sunucuya, üçüncü taraf hizmete ya da internet üzerindeki veritabanına gönderilmez.</p>
+  </section>
 
-    <p>
-        Bu sayfa Tanıdık uygulamasının gizlilik politikasını içerir.
-    </p>
+  <section>
+    <h2>2. İzinler ve Kullanım Amaçları</h2>
+    <ul>
+      <li><strong>Kamera:</strong> Kişilere fotoğraf eklemek için</li>
+      <li><strong>Fotoğraf Arşivi:</strong> Galeriden fotoğraf seçmek için</li>
+      <li><strong>Bildirimler:</strong> Doğum günü / tarih hatırlatıcılarını göstermek için</li>
+      <li><strong>Kişiler:</strong> Kişiyi telefon rehberine ekleyebilmek için</li>
+    </ul>
+    <p>İzin vermek zorunlu değildir; izin verilmezse ilgili özellikler çalışmaz ama uygulama esas işlevlerini kullanmaya devam edebilirsiniz.</p>
+  </section>
+
+  <section>
+    <h2>3. Veri Saklama ve Güvenlik</h2>
+    <ul>
+      <li>Tüm veriler SQLite veritabanı ile <strong>cihaz üzerinde</strong> saklanır</li>
+      <li>Uygulama internete bağlı çalışmaz</li>
+      <li>Verileriniz dışa sızma / sunucu sızıntısı gibi risklere maruz kalmaz</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Paylaşım</h2>
+    <p>Uygulama; yaptığınız paylaşım talebi (“Kişiyi paylaş”) dışında herhangi bir veriyi üçüncü taraflarla paylaşmaz.</p>
+  </section>
+
+  <section>
+    <h2>5. Üçüncü Taraf Hizmetler</h2>
+    <p>Arayüz dilleri: Türkçe, İngilizce, Rusça, Almanca, Fransızca, İspanyolca, İtalyanca, Arapça, Portekizce, Çince. Analiz, reklam veya takip hizmeti yoktur.</p>
+  </section>
+
+  <section>
+    <h2>6. Çocukların Gizliliği</h2>
+    <p>Uygulama 13 yaş ve üzeri kullanıcılar için tasarlanmıştır. Daha küçük kullanıcılar için ebeveyn gözetimi önerilir.</p>
+  </section>
+
+  <section>
+    <h2>7. Değişiklikler</h2>
+    <p>Bu politika gerektiğinde güncellenebilir. Güncelleme tarihi her zaman bu dosyada görülür.</p>
+  </section>
+
+  <section>
+    <h2>8. İletişim</h2>
+    <p>Sorularınız için:<br>
+      E-posta: destek@example.com<br>
+      Uygulama: “Tanıdık” (App Store / Google Play)</p>
+  </section>
+</main>
+<footer>© 2026 Tanıdık • Gizlilik Politikası</footer>
 </body>
 </html>
